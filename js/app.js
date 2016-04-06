@@ -5,7 +5,7 @@
   app.factory('datesFactory', function($http) {
     var factory ={};
     factory.getDates = function() {
-      return $http.get('/dates.json');
+      return $http.get('/theflytraps/dates.json');
     };
     return factory;
   });
