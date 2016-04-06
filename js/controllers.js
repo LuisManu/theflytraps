@@ -28,12 +28,12 @@
 
   .controller('photoCtrl', function($scope) {
     $scope.photos = [
-      '../img/photos/1.jpg',
-      '../img/photos/2.jpg',
-      '../img/photos/3.jpg',
-      '../img/photos/4.jpg',
-      '../img/photos/5.jpg',
-      '../img/photos/6.jpg'
+      '/img/photos/1.jpg',
+      '/img/photos/2.jpg',
+      '/img/photos/3.jpg',
+      '/img/photos/4.jpg',
+      '/img/photos/5.jpg',
+      '/img/photos/6.jpg'
     ];
   });
 
