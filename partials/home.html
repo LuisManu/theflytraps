@@ -1,0 +1,14 @@
+<div class="homepage-banner"><img class="img-responsive" src="img/banner.jpg"></div>
+
+<div class="content">
+    <div class="upcoming-dates">
+        <h2>Upcoming dates:</h2>
+        <div class="inverse-color" ng-repeat="date in upcomingDates">{{date.date}} {{date.time }} {{date.location}} {{date.address}}</div>
+    </div>
+
+
+    <h2>Past dates:</h2>
+    <div class="past-dates">
+    	<div class="inverse-color" ng-repeat="date in pastDates">{{date.date}} {{date.time }} {{date.location}} {{date.address}}</div>
+    </div>
+</div>
